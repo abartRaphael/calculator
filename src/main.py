@@ -5,7 +5,7 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
     parser.add_argument("-op", "--operation", help="(sum, prod, ...)")
-    parser.add_argument("-val1", "--first_value", type=int, help="Give the firt value")
+    parser.add_argument("-val1", "--first_value", type=int, help="Give the first value")
     parser.add_argument("-val2", "--second_value", type=int, help="Give the second value")
 
     args = parser.parse_args()
