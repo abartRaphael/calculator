@@ -11,6 +11,12 @@ Example :
 python src/main.py -op sum -val1 1 -val2 2
 ```
 
+### Product
+Example
+```bash
+python src/main.py -op prod -val1 1 -val2 2
+```
+
 ## Installation des dépendances
 
 ```bash
