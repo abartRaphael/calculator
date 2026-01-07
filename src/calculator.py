@@ -1,8 +1,8 @@
 class Calculator :
     # return the sum between 2 operands
-    def mysum(self, first_operand, second_operand):
+    def sum(self, first_operand, second_operand):
         return first_operand + second_operand
 
     # return the product between 2 operands
-    def myprod(self, first_operand, second_operand):
+    def prod(self, first_operand, second_operand):
         return first_operand * second_operand

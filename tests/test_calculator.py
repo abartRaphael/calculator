@@ -6,10 +6,10 @@ class TestCalculator(TestCase):
         self.calc = Calculator()
 
     def test_sum(self):
-        self.assertEqual(self.calc.mysum(1, 2), 3)
+        self.assertEqual(self.calc.sum(1, 2), 3)
 
     def test_product(self):
-        self.assertEqual(self.calc.myprod(2, 4), 8)
+        self.assertEqual(self.calc.prod(2, 4), 8)
 
     
     
