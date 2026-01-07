@@ -14,6 +14,6 @@ if __name__ == '__main__':
     if args.operation == 'sum':
         print(f'{args.first_value} + {args.second_value} = {calc.mysum(args.first_value, args.second_value)}')
     elif args.operation == 'max':
-        print(f'The max between {args.first_value} and {args.second_value} is {calc.mymax(args.first_value, args.second_value)}')
+        print(f'The max between {args.first_value} and {args.second_value} is {calc.get_max(args.first_value, args.second_value)}')
     else :
         print('The function is not taken into account in our calculator')

@@ -9,7 +9,7 @@ class TestCalculator(TestCase):
         self.assertEqual(self.calc.mysum(1, 2), 3)
 
     def test_max(self):
-        self.assertEqual(self.calc.mymax(3,5), 5)
+        self.assertEqual(self.calc.get_max(3,5), 5)
         
     def test_product(self):
         self.assertEqual(self.calc.myprod(2, 4), 8)
