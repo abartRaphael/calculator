@@ -11,6 +11,14 @@ Example :
 python src/main.py -op sum -val1 1 -val2 2
 ```
 
+### Max
+
+Exemple : 
+```bash
+python src/main.py -op max -val1 3 -val2 5
+```
+
+
 ## Installation des dépendances
 
 ```bash
