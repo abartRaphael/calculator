@@ -19,6 +19,12 @@ python src/main.py -op max -val1 3 -val2 5
 ```
 
 
+### Product
+Example
+```bash
+python src/main.py -op prod -val1 1 -val2 2
+```
+
 ## Installation des dépendances
 
 ```bash
