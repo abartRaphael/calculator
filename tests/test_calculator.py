@@ -10,6 +10,11 @@ class TestCalculator(TestCase):
 
     def test_max(self):
         self.assertEqual(self.calc.mymax(3,5), 5)
+        
+    def test_product(self):
+        self.assertEqual(self.calc.myprod(2, 4), 8)
+
+    
     
 if __name__ == '__main__':
     unittest.main()
