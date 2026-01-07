@@ -3,5 +3,6 @@ class Calculator :
     def mysum(self, first_operand, second_operand):
         return first_operand + second_operand
 
+    # return the product between 2 operands
     def myprod(self, first_operand, second_operand):
         return first_operand * second_operand
