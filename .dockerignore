@@ -1,0 +1,5 @@
+.gitignore
+.git
+.coverage
+README.md
+.github/
