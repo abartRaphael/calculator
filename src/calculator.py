@@ -7,6 +7,7 @@ class Calculator :
     def prod(self, first_operand, second_operand):
         return first_operand * second_operand
       
-    def mymax(self, first_op, second_op):
+    # return the highest number between 2 operands
+    def max(self, first_op, second_op):
         return (first_op if first_op > second_op else second_op)
     

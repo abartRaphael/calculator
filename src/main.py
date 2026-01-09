@@ -12,7 +12,9 @@ if __name__ == '__main__':
     calc = Calculator()
 
     if args.operation == 'sum':
-        print(f'{args.first_value} + {args.second_value} = {calc.sum(args.first_value, args.second_value)}')
+        print(f'{args.first_value} + {args.second_value} = {calc.mysum(args.first_value, args.second_value)}')
+    elif args.operation == 'max':
+        print(f'The max between {args.first_value} and {args.second_value} is {calc.max(args.first_value, args.second_value)}')
     elif args.operation == 'prod':
         print(f'{args.first_value} × {args.second_value} = {calc.prod(args.first_value, args.second_value)}')
     else :
